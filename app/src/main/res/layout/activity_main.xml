@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llmain"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="160dp" />
+
+    <EditText
+        android:id="@+id/editweight"
+        android:layout_width="179dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="@string/enter"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <EditText
+        android:id="@+id/edithight"
+        android:layout_width="192dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="@string/hig"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <EditText
+        android:id="@+id/edit_higIninches"
+        android:layout_width="212dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="@string/hight"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="19sp"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="191dp"
+        android:layout_height="46dp"
+        android:layout_margin="11dp"
+        android:background="#ECD405"
+        android:text="@string/bmi"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/rst"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
